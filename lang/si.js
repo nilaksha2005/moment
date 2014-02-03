@@ -42,7 +42,7 @@
             yy : "අවුරුදු %d"
         },
         ordinal : "වෙනි",
-		meridiem : function (hour, minute, isLower) {
+	meridiem : function (hour, minute, isLower) {
             if (hour >= 6 && hour < 12) {
                 return "පෙ.ව.";
             } else   if (hour >= 12 && hour < 13) {
